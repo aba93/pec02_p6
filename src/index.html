@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PEC02_P6</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body ng-app="App">
+    <div ng-controller="myCtrl as ctrl">
+    <h1>Lista</h1>
+
+    <dl class="dl-horizontal">
+        <dt>{{ctrl.datos[0].titulo}}</dt>
+        <dd>{{ctrl.datos[0].detalle}}</dd>
+
+        <dt>{{ctrl.datos[1].titulo}}</dt>
+        <dd>{{ctrl.datos[1].detalle}}</dd>
+
+        <dt>{{ctrl.datos[2].titulo}}</dt>
+        <dd>{{ctrl.datos[2].detalle}}</dd>
+    </dl>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
